@@ -1,180 +1,147 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
-  <script src="https://kit.fontawesome.com/813e79b874.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f5ce9aa6de.js" crossorigin="anonymous"></script>
   <title>Sumer</title>
 </head>
+
 <body>
   <nav class="navbar">
-    <div id="logo"><img class="img-logo" src="/images/Sumer.png"></div>
+    <div id="logo"><img class="img-logo" src="/images/Sumer-logo.svg"></div>
     <div class="nav-items">
-      <a href="#">Home</a>
-      <div class="dropdown-trip">
-        <a href="#" class="trip-btn">Trips <i class="fas fa-caret-down"></i></a>
-        <div class="dropdown-content">
-          <a href="#">Book a trip</a>
-          <div class="line"></div>
-          <a href="#">See All Trips</a>
-          <a href="#">More</a>
-        </div>
-
-      </div>
-      <a href="#main">Explore</a>
-      <a href="#">Images</a>
-      <a href="#">About</a>
+      <a href="#home" class="home active">Home</a>
+      <a href="#section-about" class="offers">Offers</a>
+      <a href="/explore.html" class="explore">Explore</a>
+      <a href="/services.html" class="services">Services</a>
+      <a href="/about.html" class="about">About</a>
+      <a href="/partners.html" class="partners-nav">Partners</a>
     </div>
+    <a href="/contact.html" class="btn-nav">Contact Us</a>
   </nav>
   <header>
-    <section>
-      <h1>Book a Trip?</h1>
-      <a href="#">Book now</a>
+    <section id="home">
+      <div class="plane"></div>
+      <div class="txt-c">
+        <h1>Travel</h1>
+        <h1>Everywhere</h1>
+      </div>
+      <div class="towers"></div>
+      <div class="p-cont">
+        <p class="p-e">At Sumer Travel and Tourism, we offer you integrated solutions that help you enjoy the travel
+          experience
+          around the world through distinguished tourism programs in terms of flights, hotels and transportation, and
+          our motto is Enjoy the trip and leave the rest of the details to us.</p>
+        <p class="p-a">نقدم لك في سومر للسياحة والسفر الحلول المتكاملة التي تساعدك على الاستمتاع بتجربة السفر حول العالم
+          من خلال
+          برامج سياحية متميزة من حيث رحلات الطيران والفنادق والتنقل، وشعارنا هو استمتع بالرحلة واترك لنا باقي التفاصيل.
+          والتنقل، وشعارنا هو استمتع بالرحلة واتركي سومر للسياحة والسفر الحلول المتكاملة التي تساعدك على الاستمتاع
+          بتجربة السفر حول العالم
+        </p>
+      </div>
     </section>
 
   </header>
-  <main id="main">
-    <div class="grid-cont">
-      <div class="egypt-grid grid-item">
-        <img src="/images/255px-Flag_of_Egypt.svg.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Egypt</a>
-          </div>
-        </div>
-      </div>
-      <div class="saudia-grid grid-item">
-        <img src="/images/saudiaflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Saudia</a>
-          </div>
-        </div>
-      </div>
-      <div class="yemen-grid grid-item">
-        <img src="/images/yemenflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Yemen</a>
-          </div>
-        </div>
-      </div>
-      <div class="iraq-grid grid-item">
-        <img src="/images/iraqflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Iraq</a>
-          </div>
-        </div>
-      </div>
-      <div  class="america-grid grid-item">
-        <img src="/images/americaflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit America</a>
-          </div>
-        </div>
-      </div>
-      <div class="france-grid grid-item">
-        <img src="/images/franceflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ab.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit France</a>
-          </div>
-        </div>
-      </div>
-      <div  class="germany-grid grid-item">
-        <img src="/images/germanyflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Germany</a>
-          </div>
-        </div>
-      </div>
-      <div  class="algeria-grid grid-item">
-        <img src="/images/algeriaflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Algeria</a>
-          </div>
-        </div>
-      </div>
-      <div  class="emirates-grid grid-item">
-        <img src="/images/emrateflag.png" class="grid-img">
-        <div class="grid-nested">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusamus reprehenderit officiis distinctio nobis quos.</p>
-          <div class="grid-nest">
-            <a href="#">More</a>
-        <a href="#">Visit Emirates</a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </main>
   <footer class="footer">
     <div class="overlay"></div>
-      <div class="footer-item-1 foot">
-        <i class="fas fa-suitcase-rolling"></i>
-        <h3>320</h3>
-        <h5>WORKS COMPLETED</h5>
-      </div>
-      <div class="footer-item-2 foot">
-        <i class="fas fa-plane-arrival"></i>
-       <h3>12</h3> 
-       <h5>YEARS OF EXPERIENCE</h5>
-      </div>
-      <div class="footer-item-3 foot">
-        <i class="fas fa-globe-africa"></i>
-        <h3>22</h3>
-        <h5>TOTAL CLIENTS</h5>
-      </div>
-      <div class="footer-item-4 foot">
-        <i class="fas fa-atlas"></i>
-        <h3>08</h3>
-        <h5>CORPORATE IDENTITY</h5>
-      </div>
+    <div class="footer-item-1 foot">
+      <i class="fas fa-suitcase-rolling"></i>
+      <h3>320</h3>
+      <h5>WORKS COMPLETED</h5>
+    </div>
+    <div class="footer-item-2 foot">
+      <i class="fas fa-plane-arrival"></i>
+      <h3>12</h3>
+      <h5>YEARS OF EXPERIENCE</h5>
+    </div>
+    <div class="footer-item-3 foot">
+      <i class="fas fa-globe-africa"></i>
+      <h3>22</h3>
+      <h5>TOTAL CLIENTS</h5>
+    </div>
+    <div class="footer-item-4 foot">
+      <i class="fas fa-atlas"></i>
+      <h3>08</h3>
+      <h5>CORPORATE IDENTITY</h5>
+    </div>
   </footer>
-  <section class="section-about">
-    <div class="text-cont">
-      <h1 class="h1-cls">Who We Are?</h1>
-        <div class="line-1"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in recusandae dicta impedit perspiciatis, fugit distinctio est nihil cum aliquam molestiae quae magnam? Minima qui ipsa asperiores dignissimos culpa dolore. Cumque ex similique exercitationem labore soluta perferendis facere expedita eaque ipsa saepe?</p>  
-           <p>Architecto consequatur facilis labore cupiditate. Consequatur, ullam totam dolorum quas saepe animi eligendi a tenetur voluptatem. Sapiente a facilis doloribus ipsum ullam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ab consequatur, earum cum nesciunt voluptatum eligendi quas deserunt fuga vitae, dolore minima suscipit autem atque itaque placeat, sapiente ea! Expedita incidunt ullam facilis ea, omnis non veritatis odit eius doloribus amet eveniet! Exercitationem sed ducimus vero modi harum? Unde excepturi porro praesentium quas consectetur necessitatibus, cum provident accusamus. Quasi reiciendis unde est, dolorum rem nobis, odit modi iusto beatae iure tenetur distinctio eos itaque? Aliquid odit incidunt atque reiciendis quae esse repellat voluptatem maxime eos est consequatur impedit totam assumenda laudantium error, ab libero. Fugit quidem quae dolor officiis tempora?</p>
-       </div>
-      <div class="pic-cont">
-        <img src="/images/10.jpeg" alt="">
-        <img src="/images/362-3625100_jpg-download-airplane-ticket-clipart-airline-tickets.png" alt="">
+  <section id="section-about" class="height">
+    <div class="overlay"></div>
+    <div class="container cont-pos">
+      <div id="slide">
+        <div class="item">
+          <div class="content">
+            <div class="name">MUSCAT</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="name">DUBAI</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="name">CAIRO</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="name">PARIS</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="name">LONDON</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="name">MADRID</div>
+            <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+            <button>See more</button>
+          </div>
+        </div>
       </div>
+      <div class="overlay" style="border-radius: 20px;"></div>
+      <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+    </div>
+    <!-- <div class="btn-cont-offers" style="z-index: 109382984128903012; position: absolute; bottom: 0;margin: 1rem;">
+      <div class="add-element">
+        <button class="add-btn"
+          style="margin: 1rem; padding:0.5rem 1rem;border: none; border-radius: 8px; background-color: #333;color: white; cursor: pointer;">Add</button>
+        <div class="input-sec-element display-none">
+          <label for="header">Enter Header</label>
+          <input type="text" id="name" placeholder="Enter City Name">
+          <label for="info">Enter Information</label>
+          <input type="text" id="des" placeholder="Enter Information">
+          <label for="image">Enter Image</label>
+          <input type="file" id="image">
+          <input type="button" value="Create" id="create">
+        </div>
+      </div>
+      <button class="remove-btn"
+        style="margin: 1rem; padding: 0.5rem 1rem; border: none;border-radius:8px;background-color: #333;color: white; cursor: pointer;">Remove</button>
+    </div> -->
   </section>
   <section class="foot-nav">
-    <div class="contact">
+    <div class="contactttt">
       <h1>Info</h1>
       <p>Jeddah, Saudi Arabia</p>
       <p>+20 (111) 953-5250</p>
@@ -195,18 +162,21 @@
     </div>
   </section>
   <section class="foot-nav-2">
-                        <div class="icons">
-    <i class="hoverh5 whitey nav-link fab fa-twitter"></i>
-    <i class="hoverh5 whitey nav-link fab fa-facebook-f"></i>
-    <i class="hoverh5 whitey nav-link fab fa-instagram"></i>
-    <i class="hoverh5 whitey nav-link fas fa-basketball-ball"></i>
-    <i class="hoverh5 whitey nav-link fab fa-pinterest"></i>
-                        </div>
+    <div class="icons">
+      <i class="hoverh5 whitey nav-link fab fa-twitter"></i>
+      <i class="hoverh5 whitey nav-link fab fa-facebook-f"></i>
+      <i class="hoverh5 whitey nav-link fab fa-instagram"></i>
+      <i class="hoverh5 whitey nav-link fas fa-basketball-ball"></i>
+      <i class="hoverh5 whitey nav-link fab fa-pinterest"></i>
+    </div>
+    <div style="cursor: pointer;" class="dashboard">Dashboard</div>
     <div class="copyright">
       <p>Copyright © Sumer</p>
     </div>
   </section>
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
