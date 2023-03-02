@@ -800,3 +800,49 @@ main {
   z-index: 99999999999999999999999999;
   background-color: black;
 }
+
+#it {
+  height: 590vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(254, 255, 224, 0.405);
+
+  .it-img {
+    height: 20rem;
+    width: 30rem;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .it1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
+
+  .it-txt {
+    color: black;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin: 1rem;
+    text-align: center;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .it-head {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+
+    span {
+      color: rgb(210, 154, 51);
+    }
+  }
+}
