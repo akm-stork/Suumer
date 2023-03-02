@@ -32,7 +32,7 @@ body {
 }
 
 .btn-nav {
-  padding: 0.8rem 1.5rem;
+  padding: 0.5rem 1.2rem;
   border: none;
   border-radius: 8px;
   color: white;
@@ -43,7 +43,7 @@ body {
 }
 
 .btn-nav:hover {
-  padding: 1.1rem 2.1rem;
+  padding: 0.8rem 1.5rem;
 }
 
 .navbar {
@@ -51,7 +51,7 @@ body {
   position: fixed;
   top: 0;
   display: flex;
-  height: 6rem;
+  height: 4.5rem;
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -200,6 +200,7 @@ a {
   opacity: 1;
   color: #55574f;
 }
+
 
 .services-cont {
   display: flex;

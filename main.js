@@ -21,6 +21,19 @@ window.addEventListener('scroll', () => {
     home.classList.add('active');
   }
 })
+// const splash = document.querySelector(".splash");
+// document.addEventListener("DOMContentLoaded", (e) => {
+//   setTimeout(() => {
+//     splash.classList.add("zero-opacity");
+//   }, 3000);
+// });
+// document.addEventListener("DOMContentLoaded", (e) => {
+//   setTimeout(() => {
+//     splash.parentNode.removeChild(splash);
+//   }, 3400);
+// });
+
+// console.log(window.outerWidth);
 
 document.getElementById('next').onclick = function () {
   let lists = document.querySelectorAll('.item');
